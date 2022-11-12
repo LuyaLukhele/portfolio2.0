@@ -1,9 +1,13 @@
+import HomePage from "./compnents/HomePage";
+import NavBar from "./compnents/NavBar";
+
  
 
 function App() {
   return (
     <div>
-      <h1 className="text-4xl font-bold">Hello</h1>
+      <NavBar />
+      <HomePage/>
     </div>
   );
 }
