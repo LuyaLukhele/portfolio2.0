@@ -12,26 +12,32 @@ function PlayGround() {
         {
           id: 1,
           src: Potfolio,
+          name: "Portfolio v1.0"
         },
         {
           id: 2,
           src: MovieApp,
+          name: "MovieApp"
         },
         {
           id: 3,
           src: Quiz,
+          name: "QuizApp"
         },
         {
           id: 4,
           src: LinkedIn_Banner,
+          name: "LinkedIn Banner"
         },
         {
           id: 5,
           src: Countdown,
+          name: "Countdown"
         },
         {
           id: 6,
           src: BirthdayInvitation,
+          name: "BirthdayCard"
         },
       ];
     
@@ -49,7 +55,7 @@ function PlayGround() {
             </div>
     
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-              {projects.map(({ id, src}) => (
+              {projects.map(({ id, src, name}) => (
                 <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                   <img
                     src={src}
@@ -58,8 +64,8 @@ function PlayGround() {
                   />
                   <div className="flex items-center justify-center">
                     <a href={src} target="popup" rel="noreferrer">
-                        <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                        Demo
+                        <button className="px-6 py-3 m-4 duration-200 hover:scale-105">
+                          {name}
                         </button>
                     </a>                    
                   </div>

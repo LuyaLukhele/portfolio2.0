@@ -19,36 +19,42 @@ function Projects() {
           src: Potfolio,
           demo:"https://luyalukhele.github.io/",
           git: "https://github.com/LuyaLukhele/LuyaLukhele.github.io",
+          name: "Potfolio v1.0"
         },
         {
           id: 2,
           src: MovieApp,
           demo:"https://movie-luyapp.netlify.app",
           git: "https://github.com/LuyaLukhele/movie-app",
+          name: "Movie App"
         },
         {
           id: 3,
           src: Quiz,
           demo:"https://quiz-luyapp.netlify.app",
           git: "https://github.com/LuyaLukhele/quiz-app",
+          name: "Quiz App"
         },
         {
           id: 4,
           src: Todo,
           demo:"https://todo-luyapp.netlify.app",
           git: "https://github.com/LuyaLukhele/Todo-App",
+          name: "Todo App"
         },
         {
           id: 5,
           src: Countdown,
           demo:"https://countdown-luyapp.netlify.app",
           git: "https://github.com/LuyaLukhele/Countdown_Timer",
+          name: "Countdown Timmer"
         },
         {
           id: 6,
           src: GitHub,
           demo:"https://github.com/LuyaLukhele",
-          git: "https://github.com/LuyaLukhele"
+          git: "https://github.com/LuyaLukhele",
+          name:"GitHub Repo"
         },
       ];
     
@@ -66,7 +72,7 @@ function Projects() {
             </div>
     
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-              {projects.map(({ id, src , demo, git}) => (
+              {projects.map(({ id, src , demo, git, name}) => (
                 <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                   <img
                     src={src}
@@ -76,7 +82,7 @@ function Projects() {
                   <div className="flex items-center justify-center">
                     <a href={demo} target="_blank" rel="noreferrer">
                         <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                        Demo
+                          {name}
                         </button>
                     </a>
                     <a href={git} target="_blank" rel="noreferrer">
