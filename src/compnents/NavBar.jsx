@@ -1,6 +1,7 @@
 // import React, { useState } from 'react'
 import { Link } from "react-scroll";
 // import {FaBars, FaTimes} from "react-icons/fa";
+import ThePeaceWithin from "../assets/playground/ThePeaceWithin1.mp3";
 
 
 const links =[
@@ -35,6 +36,11 @@ const NavBar = () => {
         <div>
             <h1 className='text-5xl'>Lu</h1>
         </div>
+
+        <audio controls autoplay>
+            <source src={ThePeaceWithin} type="audio/mpeg"/>
+            Your browser does not support the audio element.
+        </audio>
 
         <ul className='hidden md:flex'>
             {links.map(({id, link}) => (
