@@ -1,10 +1,10 @@
 import React from 'react'
 import LinkedIn_Banner from "../assets/playground/LinkedIn_Banner.png";
-import BirthdayInvitation from "../assets/playground/BirthdayInvitation.png";
+import Neophyte_Capital from "../assets/playground/Neophyte_Capital.png";
 import Potfolio from "../assets/projects/portfolio.png";
 import MovieApp from "../assets/projects/movieApp.png";
-import Quiz from "../assets/projects/Quiz.png";
-import Countdown from "../assets/projects/countdown.png";
+import DarkLoner from "../assets/playground/DarkLoner1.png";
+import DarhkSage from "../assets/playground/DarhkSageBanner.png";
 
 function PlayGround() {
 
@@ -21,8 +21,8 @@ function PlayGround() {
         },
         {
           id: 3,
-          src: Quiz,
-          name: "QuizApp"
+          src: Neophyte_Capital,
+          name: "Neophyte Capital"
         },
         {
           id: 4,
@@ -31,13 +31,13 @@ function PlayGround() {
         },
         {
           id: 5,
-          src: Countdown,
-          name: "Countdown"
+          src: DarhkSage,
+          name: "DarhkSage Apex Banner"
         },
         {
           id: 6,
-          src: BirthdayInvitation,
-          name: "BirthdayCard"
+          src: DarkLoner,
+          name: "DarkLoner Apex Banner"
         },
       ];
     
