@@ -6,11 +6,6 @@ import Html from "../assets/skills/html5-logo.png";
 import Sql from "../assets/skills/mysql-logo.png";
 import Git from "../assets/skills/github-logo.png";
 
-
-
-
-
-
 const Skills = () => {
     return (
         <div

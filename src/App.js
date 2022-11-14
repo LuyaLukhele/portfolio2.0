@@ -4,9 +4,7 @@ import About from "./compnents/About";
 import Projects from "./compnents/Projects";
 import PlayGround from "./compnents/PlayGround";
 import Skills from "./compnents/Skills";
-
-
- 
+import Contact from "./compnents/Contact";
 
 function App() {
   return (
@@ -17,7 +15,7 @@ function App() {
       <Projects/>
       <Skills/>
       <PlayGround/>
-      
+      <Contact/>
     </div>
   );
 }

@@ -2,9 +2,10 @@ import React from 'react'
 import LinkedIn_Banner from "../assets/playground/LinkedIn_Banner.png";
 import Neophyte_Capital from "../assets/playground/Neophyte_Capital.png";
 import Potfolio from "../assets/projects/portfolio.png";
-import MovieApp from "../assets/projects/movieApp.png";
+import SageVideo from "../assets/playground/SageVideo.png";
 import DarkLoner from "../assets/playground/DarkLoner1.png";
 import DarhkSage from "../assets/playground/DarhkSageBanner.png";
+
 
 function PlayGround() {
 
@@ -12,17 +13,17 @@ function PlayGround() {
         {
           id: 1,
           src: Potfolio,
-          name: "Portfolio v1.0"
+          name: "Portfolio v1.0 Design"
         },
         {
           id: 2,
-          src: MovieApp,
-          name: "MovieApp"
+          src: SageVideo,
+          name: "Apex Youtube Video"
         },
         {
           id: 3,
           src: Neophyte_Capital,
-          name: "Neophyte Capital"
+          name: "Neophyte Capital Graphics designer"
         },
         {
           id: 4,
@@ -56,6 +57,7 @@ function PlayGround() {
     
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
               {projects.map(({ id, src, name}) => (
+                id === 2 ? 
                 <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                   <img
                     src={src}
@@ -63,7 +65,22 @@ function PlayGround() {
                     className="rounded-md duration-200 hover:scale-105"
                   />
                   <div className="flex items-center justify-center">
-                    <a href={src} target="popup" rel="noreferrer">
+                    <a href="https://www.youtube.com/watch?v=yRBfM4WctTw" target="_blank" rel="noreferrer">
+                        <button className="px-6 py-3 m-4 duration-200 hover:scale-105">
+                          {name}
+                        </button>
+                    </a>                    
+                  </div>
+                </div>
+                :
+                <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+                  <img
+                    src={src}
+                    alt="some project"
+                    className="rounded-md duration-200 hover:scale-105"
+                  />
+                  <div className="flex items-center justify-center">
+                    <a href={src} target="_blank" rel="noreferrer">
                         <button className="px-6 py-3 m-4 duration-200 hover:scale-105">
                           {name}
                         </button>
