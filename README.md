@@ -8,7 +8,11 @@ Mobile frendly version in the works.
 
 ## Installation and Setup Instructions
 
-To Clone down this repository. You will need node and npm installed globally on your machine.
+1.Clone down this repository. 
+
+2.You will need node and npm installed globally on your machine.
+
+3.Navigate to project root folder then ->
 
 Installation:
 
