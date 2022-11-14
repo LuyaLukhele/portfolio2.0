@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6219efc1.css",
+    "main.js": "/static/js/main.9fe19e07.js",
+    "static/media/DarkLoner1.png": "/static/media/DarkLoner1.7ad51af138797dfb343c.png",
+    "static/media/ThePeaceWithin1.mp3": "/static/media/ThePeaceWithin1.75ba898b86c5b7eaaa32.mp3",
+    "static/media/DarhkSageBanner.png": "/static/media/DarhkSageBanner.270c2c8dd12f036c361d.png",
+    "static/media/Luyanda Lukhele.png": "/static/media/Luyanda Lukhele.e7cddae6fdc9b1128cdf.png",
+    "static/media/movieApp.png": "/static/media/movieApp.30d8c49885d9a3045b8a.png",
+    "static/media/Neophyte_Capital.png": "/static/media/Neophyte_Capital.19d6981148b08f19a0d7.png",
+    "static/media/countdown.png": "/static/media/countdown.457053672378741eaf02.png",
+    "static/media/LinkedIn_Banner.png": "/static/media/LinkedIn_Banner.f556727fffe9612e9055.png",
+    "static/media/Quiz.png": "/static/media/Quiz.e7da1bb9dde1a8f573cd.png",
+    "static/media/SageVideo.png": "/static/media/SageVideo.66ad574357066ba12933.png",
+    "static/media/python-logo.png": "/static/media/python-logo.52d7bb207f9868b90e39.png",
+    "static/media/github-logo.png": "/static/media/github-logo.07776cb76c6eee01aa95.png",
+    "static/media/html5-logo.png": "/static/media/html5-logo.aa710682752a18d5add3.png",
+    "static/media/java-logo-1.png": "/static/media/java-logo-1.fdabd4e11f1235e4e8e0.png",
+    "static/media/gitHub.png": "/static/media/gitHub.3d3647c03094688e6dde.png",
+    "static/media/mysql-logo.png": "/static/media/mysql-logo.14f9afee51581437c0c9.png",
+    "static/media/portfolio.png": "/static/media/portfolio.db0d0d66ce99fb371ceb.png",
+    "static/media/javascript-logo.png": "/static/media/javascript-logo.31c81075366a39d39b47.png",
+    "static/media/TodoApp.JPG": "/static/media/TodoApp.09df8a3a61dde057e197.JPG",
+    "index.html": "/index.html",
+    "main.6219efc1.css.map": "/static/css/main.6219efc1.css.map",
+    "main.9fe19e07.js.map": "/static/js/main.9fe19e07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6219efc1.css",
+    "static/js/main.9fe19e07.js"
+  ]
+}
