@@ -1,9 +1,5 @@
 import React from 'react'
 import Typed from 'react-typed';
-// import disableScroll from 'disable-scroll';
-// import HeroImage from "../assets/heroImage.png";
-// import { Link } from "react-scroll";
-
 
 const HomePage = () => {
   return (
@@ -20,9 +16,10 @@ const HomePage = () => {
           Random facts about me 
         </p>
         
-        <Typed className='text-white' strings={["Developer", "Engineer"]} typeSpeed={100} 
-        backSpeed={100} loop={true}></Typed>
-
+        <Typed className='text-white' 
+        strings={["Click on the top left play button","2015 and 2016 Chess campion at DHS", "I enjoy movie soundtracks more then 'actual' music."
+        ,"I sometimes solve bugs in my dreams"]} 
+        typeSpeed={80} backSpeed={10} loop={true} shuffle={false} backDelay={1000} cursorChar ={' &#128526'}></Typed>
         <div>
         </div>
       </div>

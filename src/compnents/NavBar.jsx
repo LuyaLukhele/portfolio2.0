@@ -1,8 +1,6 @@
-// import React, { useState } from 'react'
-import React, { Component } from 'react'
 
+import React, { Component } from 'react'
 import { Link } from "react-scroll";
-// import {FaBars, FaTimes} from "react-icons/fa";
 import ThePeaceWithin from "../assets/playground/ThePeaceWithin1.mp3";
 
 
@@ -70,8 +68,6 @@ class Song extends Component{
 
 const NavBar = () => {
 
-    // const [nav, SetNav] = useState(false);
-
   return (
     <div className='flex justify-between items-center w-full h-20 px-10 text-white bg-black fixed'>
         <div>
@@ -88,11 +84,6 @@ const NavBar = () => {
             
             ))}  
         </ul>
-        
-
-        {/* <div onClick={() => SetNav(!nav)} className='cursor-pointer pr-4 z-10 text-gray-500'>
-            {nav ? <FaTimes size={30}/> : <FaBars size={30}/>}
-        </div> */}
 
     </div>
   )
