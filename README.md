@@ -2,6 +2,10 @@
 
 A portfolio application used for the sovetch assessment, built with React, JavaScript, Html and CSS.
 
+## Deployed Project
+
+https://luyalukhele.netlify.app/
+
 ## Project Status
 This project is currently in development.
 Mobile frendly version in the works.
