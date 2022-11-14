@@ -20,10 +20,10 @@ const Contact = () => {
     
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
             
-            <div class="badge-base LI-profile-badge"><a class="badge-base__link LI-simple-link" target="_blank" 
+            <div class="badge-base LI-profile-badge"><a class="badge-base__link LI-simple-link" target="_blank"  without rel="noreferrer"
             href="https://za.linkedin.com/in/luyalukhele?trk=profile-badge">Luyanda Lukhele</a></div>
             </div>
-            <a href='https://za.linkedin.com/in/luyalukhele?trk=profile-badge' target="_blank">https://www.linkedin.com/in/luyalukhele/</a>
+            <a href='https://za.linkedin.com/in/luyalukhele?trk=profile-badge' target="_blank" without rel="noreferrer">https://www.linkedin.com/in/luyalukhele/</a>
           </div>
         </div>
       );
