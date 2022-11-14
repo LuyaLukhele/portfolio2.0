@@ -21,10 +21,14 @@ const links =[
     },
     {
         id: 4,
-        link:'playground'
+        link:'skills'
     },
     {
         id: 5,
+        link:'playground'
+    },
+    {
+        id: 6,
         link:'contact'
     },
 ]
