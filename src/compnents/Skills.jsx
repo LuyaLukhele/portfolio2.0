@@ -58,14 +58,14 @@ const skills = [
       name: "HTML 5"
     },
     {
-        id: 5,
-        src: Git,
-        name: "Github"
+      id: 5,
+      src: Git,
+      name: "Github"
     },
     {
-        id: 6,
-        src: Sql,
-        name: "SQL"
+      id: 6,
+      src: Sql,
+      name: "SQL"
     },
   ];
 

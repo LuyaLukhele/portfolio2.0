@@ -12,17 +12,17 @@ const About = () => {
             About
           </p>
         </div>
-        <div className="flex md:flex-row">
-          <p className="text-xl mt-10 mr-20">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 sm:px-0">
+          <p className="text-xl mt-10">
               I'm Luyanda Lukhele a Junior Developer.
               I like to create beautiful and elegant software for 
-              both frontend and backend. I am ager to learn, easy going by nature.
+              both frontend and backend. I am eager to learn and I am easy going by nature.
               I am familiar with a variety of programming languages and tools, 
               Such as Java, Python, HTML, CSS, JavaScript, GIT, Docker, Spring Boot, OpenGL, SQL, 
               but I am always eager to learning new skills.
               
-              I belive that Sovtech is the leading development company in south africa, which works with a lot of 
-              new and and exiting companies, that will enable me to experience a lot of technologies in many areas. 
+              I belive that Sovtech is the leading software development company in South Africa, which works with a variety of 
+              new and exiting companies and people, that will enable me to experience a lot of technologies in many areas. 
               While also allowing me to grow as a human in a world class work environment.
           </p>
 
@@ -30,7 +30,7 @@ const About = () => {
           <img
             src={myImage}
             alt="Luyanda Lukhele"
-            className="rounded-2xl ml-20"
+            className="rounded-2xl mx-auto object-scale-down h-45 w-96"
           />
           </p>
         </div>
